@@ -27,6 +27,7 @@
 		1F80856F1E6B4B9800A61AAF /* Locale+HttpAcceptLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80856E1E6B4B9800A61AAF /* Locale+HttpAcceptLanguage.swift */; };
 		1FCA6D451DBE0B2F0033F01C /* PiwikTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCA6D3B1DBE0B2F0033F01C /* PiwikTracker.framework */; };
 		1FCA6D4C1DBE0B2F0033F01C /* PiwikTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCA6D3E1DBE0B2F0033F01C /* PiwikTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FCFF0271F82D10B0038BC17 /* MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCFF0251F82D0E70038BC17 /* MainThread.swift */; };
 		1FDC917C1F1A64BB0046F506 /* CustomDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC917B1F1A64BB0046F506 /* CustomDimension.swift */; };
 		1FDC917F1F1A65150046F506 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC917D1F1A65150046F506 /* Application.swift */; };
 		1FDC91801F1A65150046F506 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDC917E1F1A65150046F506 /* Device.swift */; };
@@ -67,6 +68,7 @@
 		1FCA6D3F1DBE0B2F0033F01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FCA6D441DBE0B2F0033F01C /* PiwikTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiwikTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCA6D4B1DBE0B2F0033F01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCFF0251F82D0E70038BC17 /* MainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainThread.swift; sourceTree = "<group>"; };
 		1FDC917B1F1A64BB0046F506 /* CustomDimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDimension.swift; sourceTree = "<group>"; };
 		1FDC917D1F1A65150046F506 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		1FDC917E1F1A65150046F506 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				1F38EBF71EE568D10021FBF8 /* Logger.swift */,
 				1FDC917D1F1A65150046F506 /* Application.swift */,
 				1FDC917E1F1A65150046F506 /* Device.swift */,
+				1FCFF0251F82D0E70038BC17 /* MainThread.swift */,
 				1FCA6D3F1DBE0B2F0033F01C /* Info.plist */,
 				1FCA6D3E1DBE0B2F0033F01C /* PiwikTracker.h */,
 			);
@@ -375,6 +378,7 @@
 				1F0A15D01E6335E900FEAE72 /* Session.swift in Sources */,
 				1F092C1A1E26B44500394B30 /* Dispatcher.swift in Sources */,
 				1F38EBF81EE568D10021FBF8 /* Logger.swift in Sources */,
+				1FCFF0271F82D10B0038BC17 /* MainThread.swift in Sources */,
 				1F80856F1E6B4B9800A61AAF /* Locale+HttpAcceptLanguage.swift in Sources */,
 				1F0A15CE1E6335D800FEAE72 /* Visitor.swift in Sources */,
 				1FDC917F1F1A65150046F506 /* Application.swift in Sources */,
